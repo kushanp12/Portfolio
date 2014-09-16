@@ -170,7 +170,7 @@ a:hover {
 }
 
 .a-description, .test {
-	margin: 0 140px 0 140px;
+	margin: 0 10.38% 0 10.38%;
 
 	line-height: 2em;
 
@@ -207,7 +207,7 @@ li{
 	text-align: left;
 	width: 300px;
 
-	margin-left: 300px;
+	margin-left: 22.24%;
 }
 
 .facebook, .twitter, .linkedin, .google-p {
@@ -237,16 +237,11 @@ li{
 }
 
 .binder{
-	width: 1000px;
-	margin-left: 22.24%;
-	margin-right: 3%;
 }
 
 .portfolio{
-
-	width: 1000px;
 	vertical-align: baseline;
-
+	padding-left: 7%;
 }
 
 .square {
@@ -263,7 +258,7 @@ li{
 }
 
 .designs{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_1371316_converted.jpg');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/1371316_converted.jpg');
 	background-repeat: no-repeat;
 	background: cover;
 }
