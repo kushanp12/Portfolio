@@ -154,8 +154,8 @@ a:hover {
 .a-text, .c-text, .p-text {
 	color: white;
 
-	font-size: 20px;
-	font-family: 'nevis', helvetica, tahoma, arial, sans-serif;
+	font-size: 26px;
+	font-family: 'Pacifico', cursive;
 
 	text-align: center;
 
@@ -165,7 +165,7 @@ a:hover {
 	width: 200px;
 	height: 30px;
 
-	padding-top: 15px;
+	
 
 	box-shadow: 10px 10px 5px #888888;
 }
@@ -210,7 +210,8 @@ a:hover {
 
 	line-height: 2em;
 
-	font-family: 'Museo300', helvetica, tahoma, arial, serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
 
 	text-align: left;
 }
