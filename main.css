@@ -103,22 +103,21 @@ span {
 	height: 500px;
 	min-width: 500px;
 
-	line-height: 1200%;
-
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: 'Rock Salt', cursive;
 
 
 }
 
 .get-to-know{
-	height: 50px;
+	margin-top: 10%;
 }
 
 .title {
-	font-size: 60px;
+	font-size: 34px;
 	color: white;
 
-	top: 10px;
+	padding-top: 20%;
+	width: 500px;
 }
 
 a{

@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.get-to-know').click(function(e){
-		$('.about, .contact, .designs, footer').show();
+		$('.about, .contact, .designs').show();
 		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
 		$('.about-text, .contact-text, .portfolio-text').fadeIn('slow');
 		e.preventDefault();
@@ -21,14 +21,9 @@ $(document).ready(function(){
 		$("html, body").animate({ scrollTop: parseInt( $('#home').position().top ) - 50 }, 1000);
 		e.preventDefault();
 	})
-	$('.home').mouseleave(function(e){
-		$('.about-text, .contact-text, .portfolio-text').fadeIn('fast');
-	})
-	$('.home').mouseenter(function(){
-		$('.about-text, .contact-text, .portfolio-text').fadeOut('fast');
-	})
 	$('.menu').click(function(e){
 		$('.about-text, .contact-text, .portfolio-text').fadeOut('fast');
+		$('.about, .contact, .designs').fadeOut('slow');
 		e.preventDefault();
 	});
 });
