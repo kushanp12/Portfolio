@@ -72,7 +72,7 @@ span {
 	font-size: 18px;
 }
 
-.about-text, .contact-text, .portfolio-text{
+.about-text, .contact-text, .portfolio-text, footer {
 	display: none;
 }
 
@@ -84,7 +84,7 @@ span {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 660px;
+	height: 700px;
 
 }
 
@@ -104,8 +104,6 @@ span {
 	min-width: 500px;
 
 	font-family: 'Rock Salt', cursive;
-
-
 }
 
 .get-to-know{

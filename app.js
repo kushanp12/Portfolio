@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.get-to-know').click(function(e){
-		$('.about, .contact, .designs').show();
+		$('.about, .contact, .designs, footer').show();
 		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
 		$('.about-text, .contact-text, .portfolio-text').fadeIn('slow');
 		e.preventDefault();
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	})
 	$('.menu').click(function(e){
 		$('.about-text, .contact-text, .portfolio-text').fadeOut('fast');
-		$('.about, .contact, .designs').fadeOut('slow');
+		$('.about, .contact, .designs, footer').fadeOut('slow');
 		e.preventDefault();
 	});
 });
