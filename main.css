@@ -164,7 +164,7 @@ a:hover {
 	background-color: #3366FF;
 }
 
-p {
+.a-description, .test {
 	margin: 0 140px 0 140px;
 
 	line-height: 2em;
@@ -231,20 +231,62 @@ li{
 	background-repeat: no-repeat;
 }
 
-.portfolio{
+.binder{
+	width: 1000px;
 	margin-left: 22.24%;
+	margin-right: 3%;
+}
+
+.portfolio{
+
+	width: 1000px;
+	vertical-align: baseline;
 
 }
 
 .square {
+	padding-top: 5%;
+	padding-right: 5%;
 }
 	
+.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4 {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 350px;
+	height: 200px;
+}
+
 .portfolio-1{
 	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-13_204233.png');
 	background-repeat: no-repeat;
 
+	padding-right: 5%;
+}
+
+.portfolio-2{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_1screenshot_2014-09-15_185027.png');
+	background-repeat: no-repeat;
+}
+
+.portfolio-3{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_185100.png');
+	background-repeat: no-repeat;
+}
+
+.portfolio-4{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_184919.png');
+	background-repeat: no-repeat;
+}
+
+.summary{
 	width: 350px;
-	height: 200px;
+	text-align: center;
+
+	font-family: 'Museo300', helvetica, tahoma, arial, serif;
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer{
