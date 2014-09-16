@@ -37,19 +37,27 @@ body{
 	background-color: white;
 	width: 100%;
 
-	font-size: 40px;
-	font-family: serif;
-
-	text-align: left;
 	z-index: 2;
 
 	border-bottom: 1px solid black;
 }
 
-h3{
+h4{
 	margin-left: 5%;
 	width: 30%;
 	float: left;
+
+	color: #909090;
+
+	font-size: 26px;
+	font-family: "Arial Black", Gadget, sans-serif;
+
+	padding-top: 0.5%;
+}
+
+span {
+	font-weight: bold;
+	color: #FFCC33;
 }
 
 .nav {
@@ -75,6 +83,7 @@ h3{
 	background: url('https://dl.dropboxusercontent.com/u/263968982/cloud_gate_chicago_illinois_united_states-wallpaper-1440x900.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 660px;
 
 }
@@ -130,7 +139,7 @@ a:hover {
 .contact, .designs, .about {
 	display: none;
 
-	margin-top: 4%;
+	padding-bottom: 6%;
 }
 
 .banner {
@@ -169,7 +178,34 @@ a:hover {
 	background-color: #3366FF;
 }
 
+.image {
+	display: block;
+	float: left;
+
+	margin-right: 2%;
+
+	padding: 0 0 1% 1%;
+
+
+	width: 200px;
+	height: 250px;
+
+	margin-left: 10%;
+
+	border: 2px solid #FFFF66;
+
+	border-radius: 50%;
+
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_10612640_10202441596904818_5877643349902362618_n.jpg');
+	background-repeat: no-repeat;
+}
+
+.a-description{
+	position: relative;
+}
+
 .a-description, .test {
+
 	margin: 0 10.38% 0 10.38%;
 
 	line-height: 2em;
