@@ -140,7 +140,6 @@ a:hover {
 	margin-bottom: 20px;
 	margin-left: -200px;
 
-	text-align: center;
 }
 
 .a-text, .c-text, .p-text {
@@ -158,6 +157,12 @@ a:hover {
 	height: 30px;
 
 	padding-top: 15px;
+
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.p-text{
+	box-shadow: 10px 10px 5px black;
 }
 
 .a-text {
@@ -257,11 +262,16 @@ li{
 	height: 200px;
 }
 
+.designs{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_1371316_converted.jpg');
+	background-repeat: no-repeat;
+	background: cover;
+}
+
 .portfolio-1{
 	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-13_204233.png');
 	background-repeat: no-repeat;
 
-	padding-right: 5%;
 }
 
 .portfolio-2{
@@ -284,6 +294,7 @@ li{
 	text-align: center;
 
 	font-family: 'Museo300', helvetica, tahoma, arial, serif;
+	color: white;
 
 	margin-left: auto;
 	margin-right: auto;
