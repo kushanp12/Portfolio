@@ -17,15 +17,12 @@ $(document).ready(function(){
 		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
 		e.preventDefault();
 	})
-	$('.resume').click(function(){
-		$('.overlay').show();
-	})
 	$('.menu').click(function(e){
 		$("html, body").animate({ scrollTop: parseInt( $('#home').position().top ) - 50 }, 1000);
 		e.preventDefault();
 	})
 	$('.menu').click(function(e){
-		$('.about-text, .contact-text, .portfolio-text').fadeOut('fast');
+		$('.about-text, .contact-text, .portfolio-text').fadeOut('slow');
 		$('.about, .contact, .designs, footer').fadeOut('slow');
 		e.preventDefault();
 	});
