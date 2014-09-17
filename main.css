@@ -63,6 +63,8 @@ span {
 .nav {
 	margin-right: 5%;
 	float: right;
+
+	font-family: 'Fredericka the Great', cursive;
 }
 
 .menu, .about-text, .contact-text, .portfolio-text{
@@ -130,7 +132,7 @@ a{
 }
 
 a:hover {
-	color: gray;
+	color: #c0c0c0;
 }
 
 .contact, .designs, .about {
@@ -287,10 +289,18 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 
- 	width: 350px;
+ 	width: 340px;
  	height: 200px;
 
+ 	border: 2px solid gray;
+
  	border-radius: 10%;
+}
+
+.portfolio-1:hover, .portfolio-2:hover, .portfolio-3:hover, .portfolio-4:hover{
+	opacity: 0.8;
+
+	border-color: chartreuse; 
 }
 
 .designs{
@@ -321,6 +331,8 @@ li{
 
 .summary{
 	width: 350px;
+
+
 	text-align: center;
 
 	font-family: 'Museo300', helvetica, tahoma, arial, serif;
