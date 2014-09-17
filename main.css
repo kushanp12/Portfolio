@@ -74,7 +74,7 @@ span {
 	font-size: 18px;
 }
 
-.about-text, .contact-text, .portfolio-text, footer {
+.about-text, .contact-text, .portfolio-text, .overlay, footer {
 	display: none;
 }
 
@@ -132,7 +132,7 @@ a{
 }
 
 a:hover {
-	color: #c0c0c0;
+	color: #FFCC33;
 }
 
 .contact, .designs, .about {
@@ -285,28 +285,27 @@ li{
 	padding-right: 5%;
 }
 	
-.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4 {
+.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .example {
 	margin-left: auto;
 	margin-right: auto;
 
+	display: inline-block;
+
  	width: 340px;
  	height: 200px;
-
- 	border: 2px solid gray;
 
  	border-radius: 10%;
 }
 
 .portfolio-1:hover, .portfolio-2:hover, .portfolio-3:hover, .portfolio-4:hover{
-	opacity: 0.8;
-
-	border-color: chartreuse; 
+	opacity: 0.7;
 }
 
 .designs{
 	background: url('https://dl.dropboxusercontent.com/u/263968982/1371316_converted.jpg');
 	background-repeat: no-repeat;
 	background: cover;
+
 }
 
 .portfolio-1{
@@ -330,16 +329,20 @@ li{
 }
 
 .summary{
-	width: 350px;
+	width: 340px;
+	height: 80px;
 
 
 	text-align: center;
 
 	font-family: 'Museo300', helvetica, tahoma, arial, serif;
 	color: white;
+	font-size: 17px;
 
-	margin-left: auto;
-	margin-right: auto;
+	background-color: gray;
+	opacity: 0.9;
+
+	margin-top: 50px;
 }
 
 .mom{

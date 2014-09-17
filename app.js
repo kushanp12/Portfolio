@@ -17,6 +17,9 @@ $(document).ready(function(){
 		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
 		e.preventDefault();
 	})
+	$('.resume').click(function(){
+		$('.overlay').show();
+	})
 	$('.menu').click(function(e){
 		$("html, body").animate({ scrollTop: parseInt( $('#home').position().top ) - 50 }, 1000);
 		e.preventDefault();
