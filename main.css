@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 
 body{
 	min-width: 750px;
+	background: url('https://dl.dropboxusercontent.com/u/263968982/cloud_gate_chicago_illinois_united_states-wallpaper-1440x900.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .header {
@@ -79,15 +83,13 @@ span {
 }
 
 .home {
-	text-align: center;
-	position: relative;
-	clear: both;
-	background: url('https://dl.dropboxusercontent.com/u/263968982/cloud_gate_chicago_illinois_united_states-wallpaper-1440x900.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	height: 700px;
 
+	min-height: 660px;
+
+}
+
+.information {
+	background-color: white;
 }
 
 .box-text{
@@ -110,11 +112,17 @@ span {
 
 .get-to-know{
 	margin-top: 10%;
+
+	width: 500px;
+
+	text-align: center;
 }
 
 .title {
 	font-size: 34px;
 	color: white;
+
+	text-align: center;
 
 	padding-top: 20%;
 	width: 500px;
@@ -331,7 +339,6 @@ li{
 .summary{
 	width: 340px;
 	height: 80px;
-
 
 	text-align: center;
 
