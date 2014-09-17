@@ -287,8 +287,10 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 
-	width: 350px;
-	height: 200px;
+ 	width: 350px;
+ 	height: 200px;
+
+ 	border-radius: 10%;
 }
 
 .designs{
@@ -298,23 +300,22 @@ li{
 }
 
 .portfolio-1{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-13_204233.png');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-16_210951.png');
 	background-repeat: no-repeat;
-
 }
 
 .portfolio-2{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_1screenshot_2014-09-15_185027.png');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_185027%20(1).png');
 	background-repeat: no-repeat;
 }
 
 .portfolio-3{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_185100.png');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_185100%20(1).png');
 	background-repeat: no-repeat;
 }
 
 .portfolio-4{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_184919.png');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_184919%20(1).png');
 	background-repeat: no-repeat;
 }
 
