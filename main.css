@@ -29,11 +29,10 @@ footer, header, hgroup, menu, nav, section {
 }
 
 html{
-	min-width: 1350px;
 }
 
 body{
-	min-width: 1350px;
+	min-width:1000px
 }
 
 .header {
