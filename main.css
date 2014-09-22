@@ -94,7 +94,17 @@ span {
 	text-align: center;
 	position: relative;
 	clear: both;
-	min-height: 660px;
+	height: 100vh;
+
+	background: url('https://dl.dropboxusercontent.com/u/263968982/cloud_gate_chicago_illinois_united_states-wallpaper-1440x900.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+
+	background-repeat: no-repeat;
 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -151,6 +161,8 @@ a:hover {
 }
 
 .contact, .designs, .about {
+
+	display: none;
 
 	padding-bottom: 6%;
 }
