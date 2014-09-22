@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	isMobile;
 	$('.get-to-know').click(function(e){
 		$('.about, .contact, .designs, footer').show();
 		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
@@ -27,3 +28,24 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 });
+
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
