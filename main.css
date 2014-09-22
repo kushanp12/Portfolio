@@ -92,7 +92,7 @@ span {
 	text-align: center;
 	position: relative;
 	clear: both;
-	min-height: 700px;
+	height: 100vh;
 }
 
 .box-text{
