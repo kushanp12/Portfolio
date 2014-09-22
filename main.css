@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 html{
-
+	min-width: 1350px;
 }
 
 body{
