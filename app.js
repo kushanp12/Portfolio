@@ -1,9 +1,7 @@
 $(document).ready(function(){
 	isMobile;
 	$('.get-to-know').click(function(e){
-		$('.about, .contact, .designs, footer').show();
-		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
-		$('.about-text, .contact-text, .portfolio-text').fadeIn('slow');
+		openPortfolio();
 		e.preventDefault();
 	})
 	$('.portfolio-text').click(function(e){
@@ -18,16 +16,31 @@ $(document).ready(function(){
 		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
 		e.preventDefault();
 	})
+	$('.t-link').click(function(e){
+		$('.experience').show();
+		$("html, body").animate({ scrollTop: parseInt( $('#testimonial').position().top ) - 50 }, 1000);
+		e.preventDefault();
+	})
 	$('.menu').click(function(e){
 		$("html, body").animate({ scrollTop: parseInt( $('#home').position().top ) - 50 }, 1000);
 		e.preventDefault();
 	})
 	$('.menu').click(function(e){
-		$('.about-text, .contact-text, .portfolio-text').fadeOut('slow');
-		$('.about, .contact, .designs, footer').fadeOut('slow');
+		closePortfolio();
 		e.preventDefault();
 	});
 });
+
+var openPortfolio = function(){
+		$('.about, .contact, .designs, footer').show();
+		$("html, body").animate({ scrollTop: parseInt( $('#about').position().top ) - 50 }, 1000);
+		$('.about-text, .contact-text, .portfolio-text').fadeIn('slow');
+}
+
+var closePortfolio = function(){
+		$('.about-text, .contact-text, .portfolio-text').fadeOut('slow');
+		$('.about, .contact, .designs, footer').fadeOut('slow');
+}
 
 var isMobile = {
     Android: function() {

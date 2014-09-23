@@ -48,7 +48,7 @@ body{
 
 h4{
 	margin-left: 5%;
-	width: 30%;
+	min-width: 600px;
 	float: left;
 
 	color: #909090;
@@ -68,7 +68,6 @@ span {
 	margin-right: 5%;
 	float: right;
 
-	font-family: 'Fredericka the Great', cursive;
 }
 
 .menu, .about-text, .contact-text, .portfolio-text{
@@ -76,6 +75,7 @@ span {
 	color: black;
 
 	font-size: 18px;
+	font-family: 'Fredericka the Great', cursive;
 }
 
 .about-text, .contact-text, .portfolio-text, .overlay, footer {
@@ -152,7 +152,7 @@ a:hover {
 	background-color: white;
 }
 
-.contact, .designs, .about {
+.contact, .designs, .about, .experience {
 
 	display: none;
 
@@ -168,7 +168,7 @@ a:hover {
 
 }
 
-.a-text, .c-text, .p-text {
+.a-text, .c-text, .p-text, .t-text {
 	color: white;
 
 	font-size: 26px;
@@ -193,6 +193,10 @@ a:hover {
 
 .a-text {
 	background-color: #3366FF;
+}
+
+.t-text{
+	background-color: red;
 }
 
 .image {
@@ -221,7 +225,7 @@ a:hover {
 	position: relative;
 }
 
-.a-description, .test {
+.a-description, .test, .t-description {
 
 	margin: 0 10.38% 0 10.38%;
 
@@ -303,7 +307,7 @@ li{
 	padding-right: 5%;
 }
 	
-.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5, .example {
+.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5, .portfolio-6, .example {
 	margin-left: auto;
 	margin-right: auto;
 
@@ -315,9 +319,11 @@ li{
  	border-radius: 10%;
 }
 
-.portfolio-1:hover, .portfolio-2:hover, .portfolio-3:hover, .portfolio-4:hover{
-	opacity: 0.7;
+.example:hover > div{
+	background-color: #666699;
+	z-index: 1002;
 }
+
 
 .designs{
 	background: url('https://dl.dropboxusercontent.com/u/263968982/1371316_converted.jpg');
@@ -351,7 +357,12 @@ li{
 	background-repeat: no-repeat;
 }
 
-.summary{
+.portfolio-6{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-22_192011.png');
+	background-repeat: no-repeat;
+}
+
+.summary {
 	width: 340px;
 	height: 80px;
 
@@ -361,10 +372,23 @@ li{
 	color: white;
 	font-size: 17px;
 
-	background-color: gray;
+	background-color: #707070;
 	opacity: 0.9;
 
 	margin-top: 50px;
+}
+
+.testimonial {
+	text-align: center;
+
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 18px;
+
+	margin-top: 3%;
+}
+
+.t-text{
+
 }
 
 .mom{
