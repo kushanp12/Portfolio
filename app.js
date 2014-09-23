@@ -21,6 +21,10 @@ $(document).ready(function(){
 		$("html, body").animate({ scrollTop: parseInt( $('#testimonial').position().top ) - 50 }, 1000);
 		e.preventDefault();
 	})
+	$('.arrow').click(function(e){
+		$('.experience').slideToggle();
+		e.preventDefault();
+	})
 	$('.menu').click(function(e){
 		$("html, body").animate({ scrollTop: parseInt( $('#home').position().top ) - 50 }, 1000);
 		e.preventDefault();

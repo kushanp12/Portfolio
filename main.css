@@ -387,8 +387,20 @@ li{
 	margin-top: 3%;
 }
 
-.t-text{
+.arrow{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_1up-arrow-icon.png');
+	background-repeat: no-repeat;
 
+	opacity: 0.4;
+
+	position: relative;
+	float: right;
+
+	margin-top: -3%;
+	margin-right: 3%;
+
+	height: 50px;
+	width: 50px;
 }
 
 .mom{
