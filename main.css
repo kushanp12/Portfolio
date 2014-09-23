@@ -254,7 +254,7 @@ hr {
 
 .contact-menu {
 	float: right;
-	margin-right: 300px;
+	margin-right: 250px;
 }
 
 li{
@@ -268,7 +268,7 @@ li{
 	margin-left: 22.24%;
 }
 
-.facebook, .twitter, .linkedin, .google-p {
+.facebook, .twitter, .linkedin, .google-p, .gmail {
 	width: 65px;
 	height: 65px;
 }
@@ -291,6 +291,11 @@ li{
 
 .google-p{
 	background: url('https://dl.dropboxusercontent.com/u/263968982/14_google%2B.png');
+	background-repeat: no-repeat;
+}
+
+.gmail{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_8196fb6949a40b938dd9fd80ad11d484.png');
 	background-repeat: no-repeat;
 }
 
