@@ -43,7 +43,7 @@ var openPortfolio = function(){
 
 var closePortfolio = function(){
 		$('.about-text, .contact-text, .portfolio-text').fadeOut('slow');
-		$('.about, .contact, .designs, footer').fadeOut('slow');
+		$('.about, .contact, .designs, .experience, footer').fadeOut('slow');
 }
 
 var isMobile = {
