@@ -316,7 +316,7 @@ li{
 	padding-right: 5%;
 }
 	
-.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5, .portfolio-6, .example {
+.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5, .portfolio-6, .portfolio-7, .example {
 	margin-left: auto;
 	margin-right: auto;
 
@@ -352,12 +352,12 @@ li{
 }
 
 .portfolio-3{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_185100%20(1).png');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-30_135725.png');
 	background-repeat: no-repeat;
 }
 
 .portfolio-4{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_184919%20(1).png');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_184919_1.png');
 	background-repeat: no-repeat;
 }
 
@@ -368,6 +368,11 @@ li{
 
 .portfolio-6{
 	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-22_192011.png');
+	background-repeat: no-repeat;
+}
+
+.portfolio-7{
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-30_135839.png');
 	background-repeat: no-repeat;
 }
 
