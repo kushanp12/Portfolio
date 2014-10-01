@@ -49,7 +49,7 @@ body{
 	border-bottom: 1px solid black;
 }
 
-h4{
+h3{
 	margin-left: 5%;
 	min-width: 600px;
 	float: left;
@@ -75,13 +75,13 @@ span {
 
 .menu, .about-text, .contact-text, .portfolio-text{
 	display: inline-block;
-	color: black;
+	color: #484848;
 
 	font-size: 18px;
-	font-family: 'Fredericka the Great', cursive;
+	
 }
 
-.about-text, .contact-text, .portfolio-text, .overlay, footer {
+.about-text, .contact-text, .portfolio-text, footer {
 	display: none;
 }
 
@@ -148,7 +148,7 @@ a{
 }
 
 a:hover {
-	color: #FFCC33;
+	color: #909090;
 }
 
 .information {
@@ -208,9 +208,6 @@ a:hover {
 
 	margin-right: 2%;
 
-	padding: 0 0 1% 1%;
-
-
 	width: 200px;
 	height: 250px;
 
@@ -220,8 +217,7 @@ a:hover {
 
 	border-radius: 50%;
 
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_10612640_10202441596904818_5877643349902362618_n.jpg');
-	background-repeat: no-repeat;
+
 }
 
 .a-description{
