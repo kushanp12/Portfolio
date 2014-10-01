@@ -128,6 +128,10 @@ span {
 	margin-top: 10%;
 }
 
+.get-to-know:hover, .t-link:hover {
+	color: #FFCC33;
+}
+
 .title {
 	font-size: 34px;
 	color: white;
@@ -331,7 +335,7 @@ li{
 
 
 .designs{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/1371316_converted.jpg');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_wood_texture_best_widescreen_background_awesome_desktop_1920x1080_hd-wallpaper-1287934.jpg');
 	background-repeat: no-repeat;
 	background: cover;
 
@@ -353,7 +357,7 @@ li{
 }
 
 .portfolio-4{
-	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-09-15_184919_1.png');
+	background: url('https://dl.dropboxusercontent.com/u/263968982/rsz_screenshot_2014-10-01_152558_1.png');
 	background-repeat: no-repeat;
 }
 
