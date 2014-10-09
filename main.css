@@ -166,7 +166,8 @@ a:hover {
 }
 
 .binder{
-	min-width: 900px;
+	width: 1349px;
+	margin: auto;
 }
 
 .banner {
@@ -174,7 +175,7 @@ a:hover {
 	clear: both;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: -200px;
+	margin-left: -225px;
 
 }
 
