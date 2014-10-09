@@ -15,7 +15,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -56,10 +55,10 @@ h3{
 
 	color: #909090;
 
-	font-size: 26px;
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 28px;
+	font-family: 'Oxygen', sans-serif;
 
-	padding-top: 0.5%;
+	padding-top: 0.2%;
 }
 
 span {
@@ -164,6 +163,10 @@ a:hover {
 	display: none;
 
 	padding-bottom: 6%;
+}
+
+.binder{
+	min-width: 900px;
 }
 
 .banner {
@@ -415,6 +418,10 @@ li{
 
 	height: 50px;
 	width: 50px;
+}
+
+.arrow:hover{
+	opacity: 0.8;
 }
 
 .mom{
